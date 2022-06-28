@@ -1,6 +1,6 @@
 Dependencies for Project 'fFt', Target 'fFt': (DO NOT MODIFY !)
 F (startup_stm32f401xc.s)(0x62B94A33)(--cpu Cortex-M4.fp -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_fFt-IE:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IE:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F401xC SETA 1"--list startup_stm32f401xc.lst --xref -o fft\startup_stm32f401xc.o --depend fft\startup_stm32f401xc.d)
-F (../Src/main.c)(0x62B94ACA)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --diag_suppress=2803,1,1035-I.\RTE\_fFt-IE:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IE:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -DARM_MATH_CM4 -D__CC_ARM -D__TARGET_FPU_VFP-o fft\main.o --omf_browse fft\main.crf --depend fft\main.d)
+F (../Src/main.c)(0x62BB170B)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --diag_suppress=2803,1,1035-I.\RTE\_fFt-IE:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IE:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -DARM_MATH_CM4 -D__CC_ARM -D__TARGET_FPU_VFP-o fft\main.o --omf_browse fft\main.crf --depend fft\main.d)
 I (../Inc/main.h)(0x62B94A30)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal.h)(0x62B32F07)
 I (../Inc/stm32f4xx_hal_conf.h)(0x62B94A30)
@@ -37,17 +37,17 @@ I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h)(0x62B32F07)
 I (../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h)(0x62B32F07)
 I (../Inc/adc.h)(0x62B94A2F)
 I (../Inc/dma.h)(0x62B94A2F)
+I (../Inc/gpio.h)(0x62B94A2F)
 I (../Inc/spi.h)(0x62B94A2F)
 I (../Inc/tim.h)(0x62B94A2F)
 I (../Inc/usart.h)(0x62B94A30)
-I (../Inc/gpio.h)(0x62B94A2F)
+I (../Src/../drivers/ssd1306/oled.h)(0x62B7F459)
+I (E:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\arm_const_structs.h)(0x550B8088)
 I (E:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\arm_math.h)(0x5625A350)
 I (E:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\core_cm4.h)(0x5625B70C)
 I (E:\keil\ARM\ARMCC\include\string.h)(0x574E3E26)
 I (E:\keil\ARM\ARMCC\include\math.h)(0x574E3E26)
-I (E:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\arm_const_structs.h)(0x550B8088)
 I (E:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\arm_common_tables.h)(0x56249EA4)
-I (../Src/../drivers/ssd1306/oled.h)(0x62B7F459)
 I (E:\keil\ARM\ARMCC\include\stdio.h)(0x574E3E26)
 F (../Src/gpio.c)(0x62B94A2E)(--c99 -c --cpu Cortex-M4.fp -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc -I ../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I ../Drivers/CMSIS/Include --diag_suppress=2803,1,1035-I.\RTE\_fFt-IE:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include-IE:\keil\ARM\PACK\Keil\STM32F4xx_DFP\2.16.0\Drivers\CMSIS\Device\ST\STM32F4xx\Include-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -DUSE_HAL_DRIVER -DSTM32F401xC -DARM_MATH_CM4 -D__CC_ARM -D__TARGET_FPU_VFP-o fft\gpio.o --omf_browse fft\gpio.crf --depend fft\gpio.d)
 I (../Inc/gpio.h)(0x62B94A2F)
