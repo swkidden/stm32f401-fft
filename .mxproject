@@ -1,7 +1,7 @@
 [PreviousGenFiles]
-HeaderPath=C:/Users/11935/Documents/fFt/Inc
+HeaderPath=C:/Users/11935/Desktop/1/stm32f401-fft/Inc
 HeaderFiles=stm32f4xx_it.h;stm32f4xx_hal_conf.h;main.h;gpio.h;adc.h;dma.h;tim.h;usart.h;spi.h;i2c.h;
-SourcePath=C:/Users/11935/Documents/fFt/Src
+SourcePath=C:/Users/11935/Desktop/1/stm32f401-fft/Src
 SourceFiles=stm32f4xx_it.c;stm32f4xx_hal_msp.c;main.c;gpio.c;adc.c;dma.c;tim.c;usart.c;spi.c;i2c.c;
 
 [PreviousLibFiles]

@@ -36,10 +36,10 @@ fft\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_tim_ex.h
 fft\main.o: ../Drivers/STM32F4xx_HAL_Driver/Inc/stm32f4xx_hal_uart.h
 fft\main.o: ../Inc/adc.h
 fft\main.o: ../Inc/dma.h
-fft\main.o: ../Inc/gpio.h
 fft\main.o: ../Inc/spi.h
 fft\main.o: ../Inc/tim.h
 fft\main.o: ../Inc/usart.h
+fft\main.o: ../Inc/gpio.h
 fft\main.o: ../Src/../drivers/ssd1306/oled.h
 fft\main.o: E:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\arm_const_structs.h
 fft\main.o: E:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include\arm_math.h
