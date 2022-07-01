@@ -1,4 +1,4 @@
---cpu=Cortex-M4.fp
+--cpu Cortex-M4.fp
 "fft\startup_stm32f401xc.o"
 "fft\main.o"
 "fft\gpio.o"
@@ -31,8 +31,8 @@
 "fft\system_stm32f4xx.o"
 "fft\ssd1306_fonts.o"
 "fft\oled.o"
-"E:\keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
+"D:\Keil\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Lib\ARM\arm_cortexM4lf_math.lib"
 --library_type=microlib --strict --scatter "fFt\fFt.sct"
---summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
 --info sizes --info totals --info unused --info veneers
 --list "fFt.map" -o fFt\fFt.axf
